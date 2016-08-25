@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAFC57B1BB034EB00B7CFD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFC57A1BB034EB00B7CFD7 /* main.m */; };
+		2CAFC57E1BB034EB00B7CFD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFC57D1BB034EB00B7CFD7 /* AppDelegate.m */; };
+		2CAFC5811BB034EB00B7CFD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFC5801BB034EB00B7CFD7 /* ViewController.m */; };
+		2CAFC5841BB034EB00B7CFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFC5821BB034EB00B7CFD7 /* Main.storyboard */; };
+		2CAFC5861BB034EB00B7CFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFC5851BB034EB00B7CFD7 /* Assets.xcassets */; };
+		2CAFC5891BB034EB00B7CFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFC5871BB034EB00B7CFD7 /* LaunchScreen.storyboard */; };
+		2CAFC5941BB034EB00B7CFD7 /* BinDecHexMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFC5931BB034EB00B7CFD7 /* BinDecHexMobileAppTests.m */; };
+		2CAFC59F1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFC59E1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.m */; };
+		2CE521BA1BE56CAD004D5EA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE521B91BE56CAD004D5EA8 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CAFC5901BB034EB00B7CFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAFC56E1BB034EA00B7CFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CAFC5751BB034EB00B7CFD7;
+			remoteInfo = BinDecHexMobileApp;
+		};
+		2CAFC59B1BB034EB00B7CFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAFC56E1BB034EA00B7CFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CAFC5751BB034EB00B7CFD7;
+			remoteInfo = BinDecHexMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CAFC5761BB034EB00B7CFD7 /* BinDecHexMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinDecHexMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAFC57A1BB034EB00B7CFD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CAFC57C1BB034EB00B7CFD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CAFC57D1BB034EB00B7CFD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CAFC57F1BB034EB00B7CFD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CAFC5801BB034EB00B7CFD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CAFC5831BB034EB00B7CFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CAFC5851BB034EB00B7CFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CAFC5881BB034EB00B7CFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CAFC58A1BB034EB00B7CFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAFC58F1BB034EB00B7CFD7 /* BinDecHexMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinDecHexMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAFC5931BB034EB00B7CFD7 /* BinDecHexMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinDecHexMobileAppTests.m; sourceTree = "<group>"; };
+		2CAFC5951BB034EB00B7CFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAFC59A1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinDecHexMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAFC59E1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinDecHexMobileAppUITests.m; sourceTree = "<group>"; };
+		2CAFC5A01BB034EB00B7CFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE521B91BE56CAD004D5EA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAFC5731BB034EB00B7CFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE521BA1BE56CAD004D5EA8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC58C1BB034EB00B7CFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC5971BB034EB00B7CFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAFC56D1BB034EA00B7CFD7 = {
+			isa = PBXGroup;
+			children = (
+				2CE521B91BE56CAD004D5EA8 /* QuartzCore.framework */,
+				2CAFC5781BB034EB00B7CFD7 /* BinDecHexMobileApp */,
+				2CAFC5921BB034EB00B7CFD7 /* BinDecHexMobileAppTests */,
+				2CAFC59D1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests */,
+				2CAFC5771BB034EB00B7CFD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAFC5771BB034EB00B7CFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFC5761BB034EB00B7CFD7 /* BinDecHexMobileApp.app */,
+				2CAFC58F1BB034EB00B7CFD7 /* BinDecHexMobileAppTests.xctest */,
+				2CAFC59A1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAFC5781BB034EB00B7CFD7 /* BinDecHexMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFC57C1BB034EB00B7CFD7 /* AppDelegate.h */,
+				2CAFC57D1BB034EB00B7CFD7 /* AppDelegate.m */,
+				2CAFC57F1BB034EB00B7CFD7 /* ViewController.h */,
+				2CAFC5801BB034EB00B7CFD7 /* ViewController.m */,
+				2CAFC5821BB034EB00B7CFD7 /* Main.storyboard */,
+				2CAFC5851BB034EB00B7CFD7 /* Assets.xcassets */,
+				2CAFC5871BB034EB00B7CFD7 /* LaunchScreen.storyboard */,
+				2CAFC58A1BB034EB00B7CFD7 /* Info.plist */,
+				2CAFC5791BB034EB00B7CFD7 /* Supporting Files */,
+			);
+			path = BinDecHexMobileApp;
+			sourceTree = "<group>";
+		};
+		2CAFC5791BB034EB00B7CFD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFC57A1BB034EB00B7CFD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CAFC5921BB034EB00B7CFD7 /* BinDecHexMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFC5931BB034EB00B7CFD7 /* BinDecHexMobileAppTests.m */,
+				2CAFC5951BB034EB00B7CFD7 /* Info.plist */,
+			);
+			path = BinDecHexMobileAppTests;
+			sourceTree = "<group>";
+		};
+		2CAFC59D1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFC59E1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.m */,
+				2CAFC5A01BB034EB00B7CFD7 /* Info.plist */,
+			);
+			path = BinDecHexMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAFC5751BB034EB00B7CFD7 /* BinDecHexMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAFC5A31BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileApp" */;
+			buildPhases = (
+				2CAFC5721BB034EB00B7CFD7 /* Sources */,
+				2CAFC5731BB034EB00B7CFD7 /* Frameworks */,
+				2CAFC5741BB034EB00B7CFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinDecHexMobileApp;
+			productName = BinDecHexMobileApp;
+			productReference = 2CAFC5761BB034EB00B7CFD7 /* BinDecHexMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CAFC58E1BB034EB00B7CFD7 /* BinDecHexMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAFC5A61BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileAppTests" */;
+			buildPhases = (
+				2CAFC58B1BB034EB00B7CFD7 /* Sources */,
+				2CAFC58C1BB034EB00B7CFD7 /* Frameworks */,
+				2CAFC58D1BB034EB00B7CFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CAFC5911BB034EB00B7CFD7 /* PBXTargetDependency */,
+			);
+			name = BinDecHexMobileAppTests;
+			productName = BinDecHexMobileAppTests;
+			productReference = 2CAFC58F1BB034EB00B7CFD7 /* BinDecHexMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CAFC5991BB034EB00B7CFD7 /* BinDecHexMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAFC5A91BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileAppUITests" */;
+			buildPhases = (
+				2CAFC5961BB034EB00B7CFD7 /* Sources */,
+				2CAFC5971BB034EB00B7CFD7 /* Frameworks */,
+				2CAFC5981BB034EB00B7CFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CAFC59C1BB034EB00B7CFD7 /* PBXTargetDependency */,
+			);
+			name = BinDecHexMobileAppUITests;
+			productName = BinDecHexMobileAppUITests;
+			productReference = 2CAFC59A1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAFC56E1BB034EA00B7CFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jessica Kasson";
+				TargetAttributes = {
+					2CAFC5751BB034EB00B7CFD7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Q7BXP362T8;
+					};
+					2CAFC58E1BB034EB00B7CFD7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CAFC5751BB034EB00B7CFD7;
+					};
+					2CAFC5991BB034EB00B7CFD7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CAFC5751BB034EB00B7CFD7;
+					};
+				};
+			};
+			buildConfigurationList = 2CAFC5711BB034EA00B7CFD7 /* Build configuration list for PBXProject "BinDecHexMobileApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CAFC56D1BB034EA00B7CFD7;
+			productRefGroup = 2CAFC5771BB034EB00B7CFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAFC5751BB034EB00B7CFD7 /* BinDecHexMobileApp */,
+				2CAFC58E1BB034EB00B7CFD7 /* BinDecHexMobileAppTests */,
+				2CAFC5991BB034EB00B7CFD7 /* BinDecHexMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAFC5741BB034EB00B7CFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFC5891BB034EB00B7CFD7 /* LaunchScreen.storyboard in Resources */,
+				2CAFC5861BB034EB00B7CFD7 /* Assets.xcassets in Resources */,
+				2CAFC5841BB034EB00B7CFD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC58D1BB034EB00B7CFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC5981BB034EB00B7CFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAFC5721BB034EB00B7CFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFC5811BB034EB00B7CFD7 /* ViewController.m in Sources */,
+				2CAFC57E1BB034EB00B7CFD7 /* AppDelegate.m in Sources */,
+				2CAFC57B1BB034EB00B7CFD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC58B1BB034EB00B7CFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFC5941BB034EB00B7CFD7 /* BinDecHexMobileAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAFC5961BB034EB00B7CFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFC59F1BB034EB00B7CFD7 /* BinDecHexMobileAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CAFC5911BB034EB00B7CFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAFC5751BB034EB00B7CFD7 /* BinDecHexMobileApp */;
+			targetProxy = 2CAFC5901BB034EB00B7CFD7 /* PBXContainerItemProxy */;
+		};
+		2CAFC59C1BB034EB00B7CFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAFC5751BB034EB00B7CFD7 /* BinDecHexMobileApp */;
+			targetProxy = 2CAFC59B1BB034EB00B7CFD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CAFC5821BB034EB00B7CFD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAFC5831BB034EB00B7CFD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CAFC5871BB034EB00B7CFD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAFC5881BB034EB00B7CFD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CAFC5A11BB034EB00B7CFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CAFC5A21BB034EB00B7CFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CAFC5A41BB034EB00B7CFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BinDecHexMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.BinDecHexMobileApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2CAFC5A51BB034EB00B7CFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BinDecHexMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.BinDecHexMobileApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2CAFC5A71BB034EB00B7CFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BinDecHexMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.BinDecHexMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinDecHexMobileApp.app/BinDecHexMobileApp";
+			};
+			name = Debug;
+		};
+		2CAFC5A81BB034EB00B7CFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BinDecHexMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.BinDecHexMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinDecHexMobileApp.app/BinDecHexMobileApp";
+			};
+			name = Release;
+		};
+		2CAFC5AA1BB034EB00B7CFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BinDecHexMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.BinDecHexMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BinDecHexMobileApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2CAFC5AB1BB034EB00B7CFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BinDecHexMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.BinDecHexMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BinDecHexMobileApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAFC5711BB034EA00B7CFD7 /* Build configuration list for PBXProject "BinDecHexMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFC5A11BB034EB00B7CFD7 /* Debug */,
+				2CAFC5A21BB034EB00B7CFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAFC5A31BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFC5A41BB034EB00B7CFD7 /* Debug */,
+				2CAFC5A51BB034EB00B7CFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAFC5A61BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFC5A71BB034EB00B7CFD7 /* Debug */,
+				2CAFC5A81BB034EB00B7CFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAFC5A91BB034EB00B7CFD7 /* Build configuration list for PBXNativeTarget "BinDecHexMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFC5AA1BB034EB00B7CFD7 /* Debug */,
+				2CAFC5AB1BB034EB00B7CFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAFC56E1BB034EA00B7CFD7 /* Project object */;
+}

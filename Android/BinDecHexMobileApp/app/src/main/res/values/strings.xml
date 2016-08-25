@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BinDecHexMobileApp</string>
+
+    <string name="hello_world">BinDecHex Converter</string>
+
+    <string name="convertLabel">Convert...</string>
+
+    <string name="convertButton">Convert!</string>
+    <string name="clearButton">Clear</string>
+
+    <string name="from">From...</string>
+
+    <string name="binRadio">Binary</string>
+    <string name="decRadio">Decimal</string>
+    <string name="hexRadio">Hexadecimal</string>
+    <string name="binLabel">Binary: </string>
+    <string name="decLabel">Decimal: </string>
+    <string name="hexLabel">Hexadecimal: </string>
+
+    <string name="action_settings">Settings</string>
+</resources>
